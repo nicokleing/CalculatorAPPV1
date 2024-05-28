@@ -28,3 +28,10 @@ function calculate() {
 
     document.getElementById('result').innerText = 'Result: ' + result;
 }
+
+function reset() {
+    document.getElementById('number1').value = '';
+    document.getElementById('number2').value = '';
+    document.getElementById('result').innerText = '';
+    operator = '';
+}
